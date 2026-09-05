@@ -1,4 +1,4 @@
-sales = LOAD '/project/amazon sale report.csv'
+sales = LOAD '/project/Amazon Sale Report.csv'
 USING PigStorage(',')
 AS (
     index:int,

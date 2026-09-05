@@ -1,4 +1,4 @@
-sales = LOAD '/project/amazon sale report.csv'
+sales = LOAD '/project/Amazon Sale Report.csv'
 USING PigStorage(',')
 AS (
     index:int,
@@ -29,10 +29,10 @@ AS (
 
 grouped_data = GROUP sales BY category;
 
-category_max_amount = FOREACH grouped_data GENERATE
+category_average_amount = FOREACH grouped_data GENERATE
     group AS category,
-    MAX(sales.amount) AS max_amount;
+    AVG(sales.amount) AS average_amount;
 
-STORE category_max_amount
-INTO '/CategoryWiseMaxAmount.txt'
+STORE category_average_amount
+INTO '/CategoryWiseAverageAmount.txt'
 USING PigStorage(',');

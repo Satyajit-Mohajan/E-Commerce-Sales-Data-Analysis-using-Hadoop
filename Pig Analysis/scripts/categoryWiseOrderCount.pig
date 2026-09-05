@@ -1,4 +1,4 @@
-sales = LOAD '/project/amazon sale report.csv'
+sales = LOAD '/project/Amazon Sale Report.csv'
 USING PigStorage(',')
 AS (
     index:int,
@@ -29,14 +29,10 @@ AS (
 
 grouped_data = GROUP sales BY category;
 
-category_quantity = FOREACH grouped_data GENERATE
+category_order_count = FOREACH grouped_data GENERATE
     group AS category,
-    SUM(sales.qty) AS total_quantity;
+    COUNT(sales) AS order_count;
 
-ordered_data = ORDER category_quantity BY total_quantity DESC;
-
-top10_categories = LIMIT ordered_data 10;
-
-STORE top10_categories
-INTO '/Top10Categories.txt'
+STORE category_order_count
+INTO '/CategoryWiseOrderCount.txt'
 USING PigStorage(',');
