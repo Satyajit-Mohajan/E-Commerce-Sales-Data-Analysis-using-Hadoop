@@ -1,24 +1,24 @@
-\# E-Commerce Sales Data Analysis Using Hadoop
+# **E-Commerce Sales Data Analysis Using Hadoop**
 
 
 
-\## University Project for Big Data Analysis Laboratory
+### **University Project for Big Data Analysis Laboratory**
 
 
 
-**\*** Implemented Apache Hadoop big data framework to analyze e-commerce sales data using HDFS and MapReduce.
+* Implemented Apache Hadoop big data framework to analyze e-commerce sales data using HDFS and MapReduce.
 
 
 
-**\*** Implemented Apache Pig data flow language built on top of Hadoop to perform Big Data Analysis using Pig Latin scripts.
+* Implemented Apache Pig data flow language built on top of Hadoop to perform Big Data Analysis using Pig Latin scripts.
 
 
 
-**\*** Analyzed the Amazon Sale Report dataset to provide useful insights into sales, orders, product categories, and fulfilment.
+* Analyzed the Amazon Sale Report dataset to provide useful insights into sales, orders, product categories, and fulfilment.
 
 
 
-\## Problem Statement :
+#### ***Problem Statement:***
 
 
 
@@ -26,7 +26,7 @@ Analyze the Amazon Sale Report dataset using Hadoop MapReduce and Apache Pig bas
 
 
 
-\## Summary :
+#### ***Summary:***
 
 
 
@@ -34,7 +34,7 @@ The dataset used in this project is the Amazon Sale Report dataset, obtained fro
 
 
 
-\### Dataset URL:
+#### ***Dataset URL:***
 
 
 
@@ -82,7 +82,7 @@ The project uses Apache Hadoop, HDFS, MapReduce, Apache Pig, Java, and Pig Latin
 
 
 
-\## About
+#### ***About***
 
 
 
