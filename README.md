@@ -18,7 +18,7 @@
 
 
 
-### ***Problem Statement:***
+### ***Problem Statement :***
 
 
 
@@ -26,7 +26,7 @@ Analyze the Amazon Sale Report dataset using Hadoop MapReduce and Apache Pig bas
 
 
 
-### ***Summary:***
+### ***Summary :***
 
 
 
@@ -34,7 +34,7 @@ The dataset used in this project is the Amazon Sale Report dataset, obtained fro
 
 
 
-### ***Dataset URL:***
+### ***Dataset URL :***
 
 
 
@@ -50,31 +50,31 @@ The dataset includes information such as Order ID, Date, Status, Fulfilment, Sal
 
 
 
-Following MapReduce analysis is performed on the data-set:
+###### ***Following MapReduce analysis is performed on the data-set :***
 
 
 
-1\. Category-wise Total Sales
+**1.** Category-wise Total Sales
 
-2\. Status-wise Order Count
+**2.** Status-wise Order Count
 
-3\. Fulfilment-wise Total Quantity
-
-
-
-Following Pig analysis is performed on the data-set:
+**3.** Fulfilment-wise Total Quantity
 
 
 
-1\. Category-wise Total Quantity
+###### ***Following Pig analysis is performed on the data-set :***
 
-2\. Category-wise Order Count
 
-3\. Category-wise Average Amount
 
-4\. Top 10 Categories
+**1.** Category-wise Total Quantity
 
-5\. Category-wise Maximum Amount
+**2.** Category-wise Order Count
+
+**3.** Category-wise Average Amount
+
+**4.** Top 10 Categories
+
+**5.** Category-wise Maximum Amount
 
 
 
@@ -82,7 +82,7 @@ The project uses Apache Hadoop, HDFS, MapReduce, Apache Pig, Java, and Pig Latin
 
 
 
-### ***About***
+#### ***About***
 
 
 
